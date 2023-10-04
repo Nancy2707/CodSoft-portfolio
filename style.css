@@ -1,0 +1,163 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px; /* Adjust the logo size as needed */
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size:20px ;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+/* Your CSS styles for the image and paragraph layout go here */
+
+.container {
+    max-width: 950px;
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.image {
+    flex: 0 0 auto; /* Fixed width for the image */
+    margin-right: 20px;
+}
+
+.image img {
+    max-height: 300px;
+    max-width: 200px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+.languages img{
+    margin-right: 10px;
+}
+.text {
+    flex: 1;
+    margin-top: 50px;
+}
+.lang a img{
+    margin-top: 20px;
+}
+.text p {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a img{
+    margin-top: 10px;
+    height: 40px;
+    width: 44px;
+}
+.btn{
+    margin-top: 10px;
+}
+button{
+    margin-right: 20px;
+    height:30px;
+    background-color: #5e9ec9;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.proficiency-area {
+    margin: 10px;
+    margin-top: 10px;
+    /* float: left; */
+    
+}
+.logo img{
+    border-radius: 5%;
+    height: 70px;
+    width: 100px;
+
+}
+.intern {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.internimg {
+    width: 40%;
+    height: 200px;
+    margin: 0 5%;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 40px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+}
+#tech{
+    padding: 50px;
+    margin-left: 30%;
+}
+.internimg a{
+       font-size: 40px;
+}
+.internimg img {
+    width:100px;
+
+    height: 100px;
+}
+.skill-name {
+    font-weight: bold;
+}
+.progress-bar {
+    width: 30%;
+    background-color: #ddd;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+}
